@@ -186,7 +186,7 @@ export default function SearchComponent(props) {
     <div style={{ position: "relative" }}>
       <img
         src="/assets/slide1.png"
-        style={{ width: "100%", height: "100vh" }}
+        style={{ width: "100%", height: "110vh" }}
       />
       <div style={{ position: "absolute", left: "5%", top: "9%" }}>
         <Paper

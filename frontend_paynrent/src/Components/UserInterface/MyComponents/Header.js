@@ -14,7 +14,7 @@ export default function Header(props) {
     // setStatus(false);
   };
   const handleClick2 = () => {
-   setStatus(true);
+    setStatus(true);
   };
   const [categories, setCategories] = useState([]);
   const [subCategories, setSubCategories] = useState([]);
@@ -69,7 +69,7 @@ export default function Header(props) {
         <Toolbar>
           <img
             src="/assets/logo1.png"
-            style={{ width: 90, marginBottom: 20, marginTop: 10 }}
+            style={{ width: 90, marginBottom: 5, marginTop: 5 }}
           />
           <Box component="div" sx={{ flexGrow: 1 }}></Box>
           <Box>
